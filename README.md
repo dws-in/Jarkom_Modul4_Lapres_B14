@@ -95,3 +95,21 @@ Untuk server:<br>
     - Cek routing dengan melakukan pengiriman paket dari device yang kita inginkan menuju device lainnya. Berikut ini contohnya dari Client Tulungagung menuju Client Sampang, apabila hasil pengiriman simulasi paket berhasil akan menunjukkan hasil seperti berikut:<br>
     ![alt text](/img/Screenshot_465.png)<br>
 
+# UML dengan CIDR
+Langkah-langkah pengerjaan CIDR pada UML sebagai berikut: <br>
+1. Menentukan subnet yang ada dalam topologi.
+   a. Level A sebagai berikut: <br>
+   ![alt text](/img/cidr1.png)<br>
+   b. Level B sebagai berikut: <br>
+   ![alt text](/img/cidr2.png)<br>
+   c. Level C sebagai berikut: <br>
+   ![alt text](/img/cidr3.png)<br>
+   d. Level D sebagai berikut: <br>
+   ![alt text](/img/cidr4.png)<br>
+   e. Level E sebagai berikut: <br>
+   ![alt text](/img/cidr5.png)<br>
+   f. Level F sebagai berikut: <br>
+   ![alt text](/img/cidr6.png)<br>
+   g. Level G sebagai berikut: <br>
+   ![alt text](/img/cidr7.png)<br>
+   
