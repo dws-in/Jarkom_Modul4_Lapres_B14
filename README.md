@@ -97,19 +97,42 @@ Untuk server:<br>
 
 # UML dengan CIDR
 Langkah-langkah pengerjaan CIDR pada UML sebagai berikut: <br>
-1. Menentukan subnet yang ada dalam topologi.
+1. Menentukan subnet beserta netmask yang ada dalam struktur topologi. <br>
    a. Level A sebagai berikut: <br>
-   ![alt text](/img/cidr1.png)<br>
+   ![alt text](/img/cidr1.1.png) <br>
    b. Level B sebagai berikut: <br>
-   ![alt text](/img/cidr2.png)<br>
+   ![alt text](/img/cidr1.2.png) <br>
    c. Level C sebagai berikut: <br>
-   ![alt text](/img/cidr3.png)<br>
+   ![alt text](/img/cidr1.3.png) <br>
    d. Level D sebagai berikut: <br>
-   ![alt text](/img/cidr4.png)<br>
+   ![alt text](/img/cidr1.4.png) <br>
    e. Level E sebagai berikut: <br>
-   ![alt text](/img/cidr5.png)<br>
+   ![alt text](/img/cidr1.5.png) <br>
    f. Level F sebagai berikut: <br>
-   ![alt text](/img/cidr6.png)<br>
+   ![alt text](/img/cidr1.6.png) <br>
    g. Level G sebagai berikut: <br>
-   ![alt text](/img/cidr7.png)<br>
+   ![alt text](/img/cidr1.7.png) <br>
+2. Menentukan pembagian IP berdasarkan penggabungan subnet. <br>
+   a. Dalam bentuk tree sebagai berikut: <br>
+   ![alt text](/img/cidr2.1.png) <br>
+   b. Dalam bentuk table sebagai berikut: <br>
+   ![alt text](/img/cidr2.2.png) <br>
+3. Membuat file `topologi.sh` dengan memori 64MB. <br>
+   ![alt text](/img/cidr3.1.png) <br>
+4. Mengatur interfaces pada setiap UML. <br>
+   a. SURABAYA sebagai router dengan konfigurasi sebagai berikut: <br>
+   ![alt text](/img/cidr4.1.png) <br>
+   b. PASURUAN sebagai router dengan konfigurasi sebagai berikut: <br>
+   ![alt text](/img/cidr4.2.png) <br>
+   c. PROBOLINGGO sebagai router dengan konfigurasi sebagai berikut: <br>
+   ![alt text](/img/cidr4.3.png) <br>
+   d. BATU sebagai router dengan konfigurasi sebagai berikut: <br>
+   ![alt text](/img/cidr4.4.png) <br>
+   e. MADIUN sebagai router dengan konfigurasi sebagai berikut: <br>
+   ![alt text](/img/cidr4.5.png) <br>
+   f. KEDIRI sebagai router dengan konfigurasi sebagai berikut: <br>
+   ![alt text](/img/cidr4.6.png) <br>
+   g. BLITAR sebagai router dengan konfigurasi sebagai berikut: <br>
+   ![alt text](/img/cidr4.7.png) <br>
+   
    
