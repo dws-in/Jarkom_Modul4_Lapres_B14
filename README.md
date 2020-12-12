@@ -27,7 +27,7 @@ Tabel perhitungan subnet:
 2. Melakukan pembagian IP dengan Network ID serta netmask dari subnet dari pohon perhitungan
 <br>Pohon perhitungan:<br>
 ![alt text](/img/hitung-vlsm.png)<br>
-Untuk server:
+Untuk server:<br>
 ![alt text](/img/dmz.png)<br>
 
 3. Melakukan Konfigurasi Pada Cisco Packet Tracker
