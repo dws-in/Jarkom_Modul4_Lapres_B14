@@ -147,16 +147,18 @@ Langkah-langkah pengerjaan CIDR pada UML sebagai berikut: <br>
      l. JEMBER sebagai client dengan konfigurasi sebagai berikut: <br>
      ![alt text](/img/cidr4.12.png) <br>
      m. SIDOARJO sebagai clent dengan konfigurasi sebagai berikut: <br>
-     ![alt text](/img/cidr4.14.png) <br>
+     ![alt text](/img/cidr4.13.png) <br>
      n. JOMBANG sebagai client dengan konfigurasi sebagai berikut: <br>
-     ![alt text](/img/cidr4.15.png) <br>
+     ![alt text](/img/cidr4.14.png) <br>
      o. BOJONEGORO sebagai client dengan konfigurasi sebagai berikut: <br>
-     ![alt text](/img/cidr4.16.png) <br>
+     ![alt text](/img/cidr4.15.png) <br>
      p. NGANJUK sebagai client dengan konfigurasi sebagai berikut: <br>
-     ![alt text](/img/cidr4.17.png) <br>
+     ![alt text](/img/cidr4.16.png) <br>
      q. TULUNGAGUNG sebagai client dengan konfigurasi sebagai berikut: <br>
-     ![alt text](/img/cidr4.18.png) <br>
+     ![alt text](/img/cidr4.17.png) <br>
      r. LUMAJANG sebagai client dengan konfigurasi sebagai berikut: <br>
+     ![alt text](/img/cidr4.18.png) <br>
+     s. BANYUWANGI sebagai client dengan konfigurasi sebagai berikut: <br>
      ![alt text](/img/cidr4.19.png) <br>
    
    
