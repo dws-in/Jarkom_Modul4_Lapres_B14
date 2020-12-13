@@ -187,7 +187,7 @@ Langkah-langkah pengerjaan CIDR pada UML sebagai berikut: <br>
      ![alt text](/img/cidr6.4.png) <br>
      - Jalankan `source route.sh` untuk mengaktifkan routing. <br>
      
-**Kendala yang dialami:** <br>
+**Kendala di CIDR yang dialami:** <br>
 1. Melakukan `ping` ke its.ac.id masih belum berhasil. <br>
 2. Melakukan `ping` ke server masih belum berhasil. <br>
 3. Melakukan `ping` ke subnet yang berbeda beberapa tidak berhasil. <br>
