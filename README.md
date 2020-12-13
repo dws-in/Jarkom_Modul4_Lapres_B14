@@ -169,10 +169,23 @@ Langkah-langkah pengerjaan CIDR pada UML sebagai berikut: <br>
      - BANYUWANGI sebagai client dengan konfigurasi sebagai berikut: <br>
      ![alt text](/img/cidr4.19.png) <br>
 
-**5. Edit file `/etc/sysctl.conf`.** <br>
-     - Hapus tanda commment (`#`) pada `net.ipv4.ip_forward=1` di setiap UML. <br>
+**5. Edit file `/etc/sysctl.conf` di setiap UML.** <br>
+     - Hapus tanda commment (`#`) pada `net.ipv4.ip_forward=1`. <br>
      ![alt text](/img/cidr5.1.PNG) <br>
      - Untuk mengaktifkan perubahan jalankan `sysctl -p`. <br>
      ![alt text](/img/cidr5.2.png) <br>
+     
+**6. Pengaturan routing.** <br>
+     - Jalankan `iptables –t nat –A POSTROUTING –o eth0 –j MASQUERADE –s 192.168.0.0/16` di SURABAYA. <br>
+     - Buat file `route.sh` pada SURABAYA sebagai berikut: <br>
+     ![alt text](/img/cidr6.1.png) <br>
+     - Buat file `route.sh` pada BATU sebagai berikut: <br>
+     ![alt text](/img/cidr6.2.png) <br>
+     - Buat file `route.sh` pada PASURUAN sebagai berikut: <br>
+     ![alt text](/img/cidr6.3.png) <br>
+     - Buat file `route.sh` pada KEDIRI sebagai berikut: <br>
+     ![alt text](/img/cidr6.4.png) <br>
+     - Jalankan `source route.sh` untuk mengaktifkan routing. <br>
+     
 
 
