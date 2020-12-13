@@ -167,7 +167,7 @@ Langkah-langkah pengerjaan CIDR pada UML sebagai berikut: <br>
      
 **5. Edit file `/etc/sysctl.conf`.** <br>
      - Hapus tanda commment (`#`) pada `net.ipv4.ip_forward=1` di setiap UML. <br>
-     ![alt text](/img/cidr5.1.png) <br>
+     ![alt text](/img/cidr5.1.PNG) <br>
      - Untuk mengaktifkan perubahan jalankan `sysctl -p`. <br>
      ![alt text](/img/cidr5.2.png) <br>
      
