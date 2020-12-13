@@ -97,68 +97,78 @@ Untuk server:<br>
 
 # UML dengan CIDR
 Langkah-langkah pengerjaan CIDR pada UML sebagai berikut: <br>
+
 **1. Menentukan subnet beserta netmask yang ada dalam struktur topologi.** <br>
-     a. Level A sebagai berikut: <br>
+     - Level A sebagai berikut: <br>
      ![alt text](/img/cidr1.1.png) <br>
-     b. Level B sebagai berikut: <br>
+     - Level B sebagai berikut: <br>
      ![alt text](/img/cidr1.2.png) <br>
-     c. Level C sebagai berikut: <br>
+     - Level C sebagai berikut: <br>
      ![alt text](/img/cidr1.3.png) <br>
-     d. Level D sebagai berikut: <br>
+     - Level D sebagai berikut: <br>
      ![alt text](/img/cidr1.4.png) <br>
-     e. Level E sebagai berikut: <br>
+     - Level E sebagai berikut: <br>
      ![alt text](/img/cidr1.5.png) <br>
-     f. Level F sebagai berikut: <br>
+     - Level F sebagai berikut: <br>
      ![alt text](/img/cidr1.6.png) <br>
-     g. Level G sebagai berikut: <br>
+     - Level G sebagai berikut: <br>
      ![alt text](/img/cidr1.7.png) <br>
+     
 **2. Menentukan pembagian IP berdasarkan penggabungan subnet.** <br>
-     a. Dalam bentuk tree untuk client sebagai berikut: <br>
+     - Dalam bentuk tree untuk client sebagai berikut: <br>
      ![alt text](/img/cidr2.1.png) <br>
-     b. Dalam bentuk tree untuk server sebagai berikut: <br>
+     - Dalam bentuk tree untuk server sebagai berikut: <br>
      ![alt text](/img/cidr2.2.png) <br>
-     c. Dalam bentuk table sebagai berikut: <br>
+     - Dalam bentuk table sebagai berikut: <br>
      ![alt text](/img/cidr2.3.png) <br>
+     
 **3. Membuat file `topologi.sh` dengan memori 64MB pada setiap UML.** <br>
      ![alt text](/img/cidr3.1.png) <br>
+     
 **4. Mengatur interfaces.** <br>
-     a. SURABAYA sebagai router dengan konfigurasi sebagai berikut: <br>
+     - SURABAYA sebagai router dengan konfigurasi sebagai berikut: <br>
      ![alt text](/img/cidr4.1.png) <br>
-     b. PASURUAN sebagai router dengan konfigurasi sebagai berikut: <br>
+     - PASURUAN sebagai router dengan konfigurasi sebagai berikut: <br>
      ![alt text](/img/cidr4.2.png) <br>
-     c. PROBOLINGGO sebagai router dengan konfigurasi sebagai berikut: <br>
+     - PROBOLINGGO sebagai router dengan konfigurasi sebagai berikut: <br>
      ![alt text](/img/cidr4.3.png) <br>
-     d. BATU sebagai router dengan konfigurasi sebagai berikut: <br>
+     - BATU sebagai router dengan konfigurasi sebagai berikut: <br>
      ![alt text](/img/cidr4.4.png) <br>
-     e. MADIUN sebagai router dengan konfigurasi sebagai berikut: <br>
+     - MADIUN sebagai router dengan konfigurasi sebagai berikut: <br>
      ![alt text](/img/cidr4.5.png) <br>
-     f. KEDIRI sebagai router dengan konfigurasi sebagai berikut: <br>
+     - KEDIRI sebagai router dengan konfigurasi sebagai berikut: <br>
      ![alt text](/img/cidr4.6.png) <br>
-     g. BLITAR sebagai router dengan konfigurasi sebagai berikut: <br>
+     - BLITAR sebagai router dengan konfigurasi sebagai berikut: <br>
      ![alt text](/img/cidr4.7.png) <br>
-     h. MALANG sebagai server dengan konfigurasi sebagai berikut: <br>
+     - MALANG sebagai server dengan konfigurasi sebagai berikut: <br>
      ![alt text](/img/cidr4.8.png) <br>
-     i. MOJOKERTO sebagai server dengan konfigurasi sebagai berikut: <br>
+     - MOJOKERTO sebagai server dengan konfigurasi sebagai berikut: <br>
      ![alt text](/img/cidr4.9.png) <br>
-     j. BONDOWOSO sebagai client dengan konfigurasi sebagai berikut: <br>
+     - BONDOWOSO sebagai client dengan konfigurasi sebagai berikut: <br>
      ![alt text](/img/cidr4.10.png) <br>
-     k. SAMPANG sebagai client dengan konfigurasi sebagai berikut: <br>
+     - SAMPANG sebagai client dengan konfigurasi sebagai berikut: <br>
      ![alt text](/img/cidr4.11.png) <br>
-     l. JEMBER sebagai client dengan konfigurasi sebagai berikut: <br>
+     - JEMBER sebagai client dengan konfigurasi sebagai berikut: <br>
      ![alt text](/img/cidr4.12.png) <br>
-     m. SIDOARJO sebagai clent dengan konfigurasi sebagai berikut: <br>
+     - SIDOARJO sebagai clent dengan konfigurasi sebagai berikut: <br>
      ![alt text](/img/cidr4.13.png) <br>
-     n. JOMBANG sebagai client dengan konfigurasi sebagai berikut: <br>
+     - JOMBANG sebagai client dengan konfigurasi sebagai berikut: <br>
      ![alt text](/img/cidr4.14.png) <br>
-     o. BOJONEGORO sebagai client dengan konfigurasi sebagai berikut: <br>
+     - BOJONEGORO sebagai client dengan konfigurasi sebagai berikut: <br>
      ![alt text](/img/cidr4.15.png) <br>
-     p. NGANJUK sebagai client dengan konfigurasi sebagai berikut: <br>
+     - NGANJUK sebagai client dengan konfigurasi sebagai berikut: <br>
      ![alt text](/img/cidr4.16.png) <br>
-     q. TULUNGAGUNG sebagai client dengan konfigurasi sebagai berikut: <br>
+     - TULUNGAGUNG sebagai client dengan konfigurasi sebagai berikut: <br>
      ![alt text](/img/cidr4.17.png) <br>
-     r. LUMAJANG sebagai client dengan konfigurasi sebagai berikut: <br>
+     - LUMAJANG sebagai client dengan konfigurasi sebagai berikut: <br>
      ![alt text](/img/cidr4.18.png) <br>
-     s. BANYUWANGI sebagai client dengan konfigurasi sebagai berikut: <br>
+     - BANYUWANGI sebagai client dengan konfigurasi sebagai berikut: <br>
      ![alt text](/img/cidr4.19.png) <br>
-   
+     
+**5. Edit file `/etc/sysctl.conf`.** <br>
+     - Hapus tanda commment (`#`) pada `net.ipv4.ip_forward=1` di setiap UML. <br>
+     ![alt text](/img/cidr5.1.png) <br>
+     - Untuk mengaktifkan perubahan jalankan `sysctl -p`. <br>
+     ![alt text](/img/cidr5.2.png) <br>
+     
    
