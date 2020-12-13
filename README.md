@@ -95,6 +95,10 @@ Untuk server:<br>
     - Cek routing dengan melakukan pengiriman paket dari device yang kita inginkan menuju device lainnya. Berikut ini contohnya dari Client Tulungagung menuju Client Sampang, apabila hasil pengiriman simulasi paket berhasil akan menunjukkan hasil seperti berikut:<br>
     ![alt text](/img/Screenshot_465.png)<br>
 
+
+Kendala dalam pengerjaan:
+Masih belum benar benar memahami mengenai penggunaan Cisco Packet Tracker dalam pengerjaan tersebut
+
 # UML dengan CIDR
 Langkah-langkah pengerjaan CIDR pada UML sebagai berikut: <br>
 
@@ -113,7 +117,7 @@ Langkah-langkah pengerjaan CIDR pada UML sebagai berikut: <br>
      ![alt text](/img/cidr1.6.png) <br>
      - Level G sebagai berikut: <br>
      ![alt text](/img/cidr1.7.png) <br>
-     
+
 **2. Menentukan pembagian IP berdasarkan penggabungan subnet.** <br>
      - Dalam bentuk tree untuk client sebagai berikut: <br>
      ![alt text](/img/cidr2.1.png) <br>
@@ -121,10 +125,10 @@ Langkah-langkah pengerjaan CIDR pada UML sebagai berikut: <br>
      ![alt text](/img/cidr2.2.png) <br>
      - Dalam bentuk table sebagai berikut: <br>
      ![alt text](/img/cidr2.3.png) <br>
-     
+
 **3. Membuat file `topologi.sh` dengan memori 64MB pada setiap UML.** <br>
      ![alt text](/img/cidr3.1.png) <br>
-     
+
 **4. Mengatur interfaces.** <br>
      - SURABAYA sebagai router dengan konfigurasi sebagai berikut: <br>
      ![alt text](/img/cidr4.1.png) <br>
@@ -164,11 +168,11 @@ Langkah-langkah pengerjaan CIDR pada UML sebagai berikut: <br>
      ![alt text](/img/cidr4.18.png) <br>
      - BANYUWANGI sebagai client dengan konfigurasi sebagai berikut: <br>
      ![alt text](/img/cidr4.19.png) <br>
-     
+
 **5. Edit file `/etc/sysctl.conf`.** <br>
      - Hapus tanda commment (`#`) pada `net.ipv4.ip_forward=1` di setiap UML. <br>
      ![alt text](/img/cidr5.1.PNG) <br>
      - Untuk mengaktifkan perubahan jalankan `sysctl -p`. <br>
      ![alt text](/img/cidr5.2.png) <br>
-     
-   
+
+
